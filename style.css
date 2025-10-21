@@ -14,6 +14,12 @@
     border-radius: 10px;
   }
 
+  .ryandidit{
+    display: flex;
+    justify-content: center;
+    
+  }
+
   .carousel {
     max-width: 100%;
     margin: 0 auto;
@@ -72,4 +78,27 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFD700;
+    border-radius: 4px;
+}
+section {
+    scroll-margin-top: 80px;
 }
